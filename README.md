@@ -15,3 +15,24 @@
 
 ### `get_customers()` y `get_services()`
 - Permite visualizar elementos de lista `customer` y elementos de lista `services`
+
+## `business-layer.py`
+
+### Constructor
+- Inicializa instancias con la declaración de una instancia de la capa de datos para trabajar
+
+### `add_customer()`
+- Recibe diccionario con el nombre del usuario y de su mascota e invoca método de capa de datos para creación del usuario
+ 
+### `add_service()`
+- Recibe nombre del servicio y precio e invoca método de capa de datos para la creación del servicio 
+
+### `get_customers()`
+- Regresa la lista de diccionarios de clientes mediante método de capa de datos
+
+### `get_services()`
+- Regresa la lista de diccionarios de servicios mediante método de capa de datos
+
+### `book_services()`
+- Permite agendar servicios
+- Recibe nombre del cliente y del servicio a prestar para la verificación de su existencia
