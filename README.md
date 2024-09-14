@@ -3,7 +3,7 @@
 ## Objetivo
 - Explicar el patrón de diseño por capas mediante un sistema de información para una guardería de mascotas.
 
-## data-layer.py
+## `data-layer.py`
 - Contiene la implementación de la capa de datos de la aplicación
 
 ### Constructor
