@@ -37,7 +37,7 @@
 - Permite agendar servicios
 - Recibe nombre del cliente y del servicio a prestar para la verificación de su existencia
 
-## `business-layer.py`
+## `presentation-layer.py`
 - Muestra la interfaz de usuario
 
 ### Constructor
