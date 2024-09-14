@@ -36,3 +36,27 @@
 ### `book_services()`
 - Permite agendar servicios
 - Recibe nombre del cliente y del servicio a prestar para la verificación de su existencia
+
+## `business-layer.py`
+- Muestra la interfaz de usuario
+
+### Constructor
+- Inicializa instancias con una instancia de la capa de negocio para trabajar
+
+### `show_menu()`
+- Inicia el menú en consola
+
+### `add_customer()`
+- Permite crear clientes junto con sus mascotas, mediante la ejecución de un método de la capa de negocio
+
+### `add_service()`
+- Permite crear servicios junto con sus precios mediante la ejecución de un método de la capa de negocio
+
+### `view_customers()`
+- Permite referenciar la lista de clientes mediante un método de la capa de negocio y visualizarlos al atravesarla
+
+### `view_services()`
+- Permite referenciar la lista de servicios mediante un método de la capa de negocio y visualizarlos al atravesarla
+
+### `book_service()`
+- Permite agendar un servicio mediante la ejecución de un método de la capa de negocio
