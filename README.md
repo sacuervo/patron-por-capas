@@ -3,7 +3,7 @@
 ## Objetivo
 - Explicar el patrón de diseño por capas mediante un sistema de información para una guardería de mascotas.
 
-## `data-layer.py`
+## `data_layer.py`
 - Contiene la implementación de la capa de datos de la aplicación
 
 ### Constructor
@@ -16,7 +16,7 @@
 ### `get_customers()` y `get_services()`
 - Permite visualizar elementos de lista `customer` y elementos de lista `services`
 
-## `business-layer.py`
+## `business_layer.py`
 
 ### Constructor
 - Inicializa instancias con la declaración de una instancia de la capa de datos para trabajar
@@ -37,7 +37,7 @@
 - Permite agendar servicios
 - Recibe nombre del cliente y del servicio a prestar para la verificación de su existencia
 
-## `presentation-layer.py`
+## `presentation_layer.py`
 - Muestra la interfaz de usuario
 
 ### Constructor
