@@ -11,6 +11,7 @@
 
 ### `add_customer()` y `add_service()`
 - Permite añadir clientes a lista `customer` y servicios a lista `services`
+- Reciben como argumentos un diccionario de usuario y servicio respectivamente
 
 ### `get_customers()` y `get_services()`
 - Permite visualizar elementos de lista `customer` y elementos de lista `services`
